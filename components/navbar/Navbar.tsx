@@ -20,7 +20,7 @@ export const Navbar = () => {
 
       <Link href={'/'} className='flex items-center'>
         <HomeIcon className='mr-2' />
-        <span>Home!</span>
+        <span>Home!!</span>
       </Link>
 
       <div className="flex flex-1"></div>
@@ -30,8 +30,6 @@ export const Navbar = () => {
           <ActiveLink key={navItem.path} {...navItem} />
         ))
       }
-
-
     </nav>
   )
 }
